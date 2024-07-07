@@ -5,7 +5,63 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+  "wdth" 100;
+}
+
+/* Shared Styles */
+
+.styled-r{
+    color: rgb(253, 110, 10);
+}
+
+.dark-1{
+    color: rgb(24, 24, 24);
+}
+
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+
+.dark-3{
+    color: rgb(117, 117, 117);
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 35px 19px 36px;
+    border: none;
+}
+
+.btn-2{
+    color: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 19px 23px 18px 46px;
+    box-sizing: border-box;
+    border: 1px solid rgb(253, 110, 10);
+    border-radius: 5px;
+
+    }
+/* Header styles */
+.head{
+    background-color:rgb(255, 248, 243);
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 
 /* Nav styles */
@@ -41,26 +97,73 @@ nav ul li a{
     font-size: 20px;
 }
 
-/* Shared Styles */
+/* Banner styles */
 
-.styled-r{
-    color: rgb(253, 110, 10);
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 38px;
 }
 
-.dark-2{
-    color: rgb(71, 71, 71);
-}
-
-.btn-primary{
-    border-radius: 5px;
-    background: rgb(253, 110, 10);
-    color: rgb(255, 255, 255);
+.banner-greeting{
     font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
     letter-spacing: 0%;
     text-align: left;
-    padding: 18px 35px 19px 36px;
-    border: none;
+}
+
+.banner-title{
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-description{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 585px;
+}
+
+/* Main Styles */
+
+.main{
+
+}
+
+/* About */
+.about{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    width: 1140px;
+    height: 550px;
+}
+
+.section-title{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.section-description{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 30px 0px;
 }
